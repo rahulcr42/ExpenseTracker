@@ -1,36 +1,16 @@
-# Node modules for both frontend and backend
+# Node.js dependencies
 node_modules/
 
-# Logs
-logs/
-*.log
-npm-debug.log*
-
-# Operating system files
-.DS_Store          # macOS
-Thumbs.db          # Windows
-
-# Environment variables (don't push your .env file with sensitive information)
+# Environment files
 .env
 
-# Build output for frontend (React or similar)
-build/
-dist/
+# Logs
+*.log
 
-# IDE and editor settings (for common editors like VSCode, etc.)
-.vscode/
-.idea/
+# OS-specific files
+.DS_Store
+Thumbs.db
 
-# Dependency directories for frontend build tools
-bower_components/
-jspm_packages/
-
-# Dependency directories for backend build tools (if applicable)
-.pnp/
-
-# OS-specific files (for Linux, macOS, or Windows)
-# Uncomment if you're on a Mac or Windows
-# .AppleDouble
-# .LSOverride
-
-# Package lock files (optional, you might want to
+# Build directories
+/build
+/dist
