@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
@@ -10,6 +11,14 @@
 @layer base {
   html {
     font-family: var(--font-display);
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Poppins", sans-serif;
+>>>>>>> 96bf417c43b445d7e9846fa4077355731c8ac36e
   }
 
   body {
@@ -18,6 +27,7 @@
   }
 }
 
+<<<<<<< HEAD
 .recharts-bar-rectangle:hover {
   fill: rgba(255, 255, 0, 0.2) !important; 
 }
@@ -44,4 +54,13 @@
 
 .add-btn-fill {
   @apply text-white bg-primary
+=======
+@layer components {
+.input-box {
+    @apply w-full px-4 py-2 border border-slate-300 rounded-md text-sm text-black outline-none focus:ring-2 focus:ring-[--color-primary] transition-all;
+    }
+  .btn-primary {
+    @apply w-full bg-violet-600 text-white py-2 mt-6 rounded-lg hover:bg-violet-700 transition;
+  }
+>>>>>>> 96bf417c43b445d7e9846fa4077355731c8ac36e
 }

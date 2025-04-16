@@ -1,4 +1,5 @@
 const express = require("express");
+<<<<<<< HEAD
 const {
   registerUser,
   loginUser,
@@ -23,5 +24,14 @@ router.post("/upload-image", upload.single("image"), (req, res) => {
   res.status(200).json({ imageUrl });
 });
 
+=======
+const router = express.Router();
+const { registerUser, loginUser, getUserInfo } = require("../controllers/authController");
+const { protect } = require("../middleware/authMiddleware"); // fixed typo here
+
+router.post("/register", registerUser);
+router.post("/login", loginUser);
+router.get("/getUser", protect, getUserInfo); // added protect middleware here
+>>>>>>> 96bf417c43b445d7e9846fa4077355731c8ac36e
 
 module.exports = router;

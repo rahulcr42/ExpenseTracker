@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import moment from "moment";
 
 export const validateEmail = (email) => {
@@ -61,3 +62,10 @@ export const prepareExpenseLineChartData = (data = []) => {
 
   return chartData;
 };
+=======
+export const validateEmail = (email) => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  };
+  
+>>>>>>> 96bf417c43b445d7e9846fa4077355731c8ac36e

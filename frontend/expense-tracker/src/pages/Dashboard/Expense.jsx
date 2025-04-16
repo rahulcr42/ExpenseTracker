@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from "react";
 import DashboardLayout from "../../components/layouts/DashboardLayout";
 
@@ -178,3 +179,14 @@ const Expense = () => {
 };
 
 export default Expense;
+=======
+import React from 'react'
+
+const Expense = () => {
+  return (
+    <div>Expense</div>
+  )
+}
+
+export default Expense
+>>>>>>> 96bf417c43b445d7e9846fa4077355731c8ac36e
